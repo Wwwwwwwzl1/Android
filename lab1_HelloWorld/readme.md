@@ -2,5 +2,5 @@
 
 2.利用了Android Studio 布局编辑器创建了一个简单的登录页面，体验了一下Android Studio
 
-![HelloWorld](https://github.com/Wwwwwwwzl1/Android/blob/master/lab1_HelloWorld/image/HelloWorld.jpg)
+![HelloWorld](image/HelloWorld.jpg)
 
