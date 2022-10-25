@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 连框颜色值 --><item>
+    <shape>
+<!--        线的颜色-->
+        <solid android:color="#ccc" />
+    </shape>
+</item>
+    <!-- 主体背景颜色值 -->
+<!--    显示哪里的边框-->
+    <item android:top="1dp" android:right="1dp">
+        <shape>
+<!--            //按钮背景颜色-->
+            <solid android:color="#F4F4F4" />
+
+            <padding android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+        </shape>
+    </item>
+</layer-list>
