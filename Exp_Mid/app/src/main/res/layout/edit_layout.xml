@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/lvBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        app:titleTextColor="?attr/titleColor"
+        app:title="新笔记"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <Spinner
+            android:id="@+id/spinner"
+            style="@style/spinner"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:dropDownWidth="wrap_content"
+            android:popupTheme="@style/spinnerPop"
+            android:spinnerMode="dropdown" />
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:id="@+id/edit_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ellipsize="none"
+            android:gravity="top"
+            android:hint="请输入标题..."
+            android:maxLength="20"
+            android:textColor="?attr/tvMainColor"
+
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@null"
+            android:gravity="start"
+            android:hint="请输入正文...."
+            android:letterSpacing="0.03"
+            android:lineSpacingMultiplier="1.5"
+            android:maxLines="30"
+            android:minLines="20"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

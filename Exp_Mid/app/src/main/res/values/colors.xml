@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fabColor1">#ffbbbb</color>
+    <color name="black">#000000</color>
+    <color name="near_black">#3b3b3b</color>
+    <color name="greyC">#cccccc</color>
+    <color name="grey9">#999999</color>
+    <color name="red"> 	#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="near_white">#f3f3f3</color>
+
+    <color name="cover">#66000000</color>
+
+    <color name="q">#34AADA</color>
+    <color name="w">#8CC7B5</color>
+    <color name="e">#A0EEE1</color>
+    <color name="r">#BEE7E9</color>
+    <color name="t">#BEEDC7</color>
+    <color name="y">#D6D5B7</color>
+    <color name="u">#D1BA74</color>
+    <color name="i">#E6CEAC</color>
+    <color name="o">#ECAD9E</color>
+    <color name="p">#F4606C</color>
+
+
+    <color name="tag_1"> #34AADA</color>
+    <color name="tag_1_main">#f3f3f3</color>
+    <color name="tag_1_color"> #87CEFA</color>
+
+    <color name="tag_2">#BDBEC0</color>
+    <color name="tag_2_main">#F8F8F8</color>
+    <color name="tag_2_color">   #DCDCDC</color>
+
+    <color name="tag_3">#FD4A81</color>
+    <color name="tag_3_main">#FDEEF3</color>
+    <color name="tag_3_color">#FFC0CB</color>
+
+    <color name="tag_4">#4BDA64</color>
+    <color name="tag_4_main">#EBFCEC</color>
+    <color name="tag_4_color">#98FB98</color>
+
+    <color name="tag_5">#FE9601</color>
+    <color name="tag_5_main">#FFEFD5</color>
+    <color name="tag_5_color"> #FFDEAD</color>
+
+    <color name="tag_6"> #FFD700</color>
+    <color name="tag_6_main">#FFF8DC</color>
+    <color name="tag_6_color"> #FFEBCD</color>
+
+    <color name="tag_7">#5856D5</color>
+    <color name="tag_7_main">#EDECFA</color>
+    <color name="tag_7_color"> #6495ED</color>
+
+    <color name="tag_8">#8A2BE2</color>
+    <color name="tag_8_main"> 	#D8BFD8</color>
+    <color name="tag_8_color"> #9932CC</color>
+
+    <color name="tag_9"> #20B2AA</color>
+    <color name="tag_9_main"> #D4F2E7</color>
+    <color name="tag_9_color"> #48D1CC</color>
+
+    <color name="toolbar">#000000</color>
+
+
+</resources>

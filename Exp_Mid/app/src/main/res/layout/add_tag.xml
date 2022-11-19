@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Enter the name of tag :"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/tag_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Choose the color of tag :"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/tag_color_content"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="3"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:rowCount="3"
+        android:useDefaultMargins="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tag_1"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_1"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tag_2"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_2"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tag_3"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_3"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tag_4"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_4"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tag_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_5"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tag_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_6"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tag_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_7"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tag_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_8"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tag_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:adjustViewBounds="true"
+            android:background="@color/tag_9"
+            android:onClick="chooseColor">
+
+        </TextView>
+
+
+    </GridLayout>
+</LinearLayout>
