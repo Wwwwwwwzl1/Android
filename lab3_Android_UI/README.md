@@ -111,7 +111,7 @@
           });
   ```
 
-- #### 实验结果如下图：
+- #### 实验结果如图：
 
 - ![1](https://user-images.githubusercontent.com/106793045/197790461-233b2deb-3943-43ff-bdaa-cbfa2ddc9014.jpg)
 
